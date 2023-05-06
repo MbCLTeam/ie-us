@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IECloud3.5 - Upload</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>body{background:linear-gradient(to bottom right,#6600FF,#00CCFF);height:100vh;display:flex;justify-content:center;align-items:center;font-family:'Montserrat',sans-serif}.card{background-color:#fff;border-radius:10px;box-shadow:0 2px 4px rgba(0,0,0,.4);padding:30px;max-width:500px;width:100%}.btn-primary{background:linear-gradient(to bottom right,#6600FF,#00CCFF);border:none;border-radius:20px;padding:10px 20px;transition:all .3s ease-in-out;font-size:1.1rem;font-weight:600;color:#fff}.btn-primary:hover{transform:scale(1.1);box-shadow:0 4px 6px rgba(0,0,0,.2)}.form-control{border-radius:10px}.custom-file-label{border-radius:10px}.custom-file-label:after{border-radius:10px}.custom-file-input:focus~.custom-file-label{border-color:#00CCFF;box-shadow:none}.custom-file-input:focus{outline:none;box-shadow:none;border-color:#00CCFF}.custom-file-input{border-radius:10px}.card-title{color:#6600FF;font-size:2.5rem;font-weight:700;text-align:center;margin-bottom:20px;font-family:'Poppins', sans-serif}.card-text{color:#444;font-size:1.5rem;font-weight:500;text-align:center;margin-bottom:30px;font-family:'Poppins', sans-serif}.fa-upload{color:#6600FF;transition:all .3s ease-in-out}.fa-upload:hover{color:#00CCFF;transform:rotate(10deg)}.custom-file-input~.card-text span{color:#6600FF;cursor:pointer;font-weight:bold;transition:all .3s ease-in-out}.custom-file-input~.card-text span:hover{color:#00CCFF;text-shadow:0 4px 6px rgba(0,0,0,.2);}</style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <div class="card">
+          <div class="card-header">
+            <h4 style="color:#6600FF;font-size:2.5rem;font-weight:600;text-align:center;margin-bottom:20px;font-family:'Poppins', sans-serif"><i class="fas fa-cloud-upload-alt"></i>IECloud</h4>
+          </div>
+          <div class="card-body">
+            <form method="post" action="https://ie.cubiecloud.ml/v3.5/upload" enctype="multipart/form-data" required>
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" name="file" style="border-radius:10px" required>
+                <label class="custom-file-label" for="customFile" style="border-radius:10px" required>Select File</label>
+              </div>
+              <br>
+              <button type="submit" class="btn btn-block upload-btn btn-primary" style="background:linear-gradient(to bottom right,#6600FF,#00CCFF);border:none;border-radius:20px;padding:10px 20px;transition:all .3s ease-in-out;font-size:1.1rem;font-weight:600;color:#fff" required>Upload File</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+  </html>
+                                                                                                                                                                                                                                                                                               
