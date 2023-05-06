@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>File Upload</title>
+    <meta name="description" content="Upload Files to a Cloud Environment">
+  </head>
+  <body>
+    <div class="container my-5">
+      <h2 class="text-center">Upload File</h2>
+      <form action="https://ie.cubiecloud.ml/us/upload" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+          <div class="custom-file">
+            <input type="file" class="custom-file-input" id="customFile" name="file" accept="*" required>
+            <label class="custom-file-label" for="customFile">Select File</label>
+          </div>
+        </div>
+        <input type="submit" class="btn btn-primary btn-block" value="Upload">
+      </form>
+    </div>
+  </body>
+</html>
